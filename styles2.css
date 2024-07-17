@@ -1,0 +1,70 @@
+body {
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/yodas-hut_a3d1133d.jpeg?region=0%2C75%2C1560%2C880);
+    background-position: center;
+    background-size: cover;
+}
+* {
+    color: white;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container .hexagonArea{
+    display: flex;
+}
+
+.container .hexagonArea .last{
+    transform: translateY(-45px);
+}
+.container .hexagonArea .hexagon {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 0 10px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: #515540;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.container .hexagonArea .hexagon h3{
+    text-transform: uppercase;
+    font-weight: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;    
+    margin-top: 1px;
+}
+
+.container .hexagonArea .hexagon:hover {
+    background: deepskyblue;
+    transform: scale(0.8);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
