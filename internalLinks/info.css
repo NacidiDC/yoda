@@ -15,7 +15,8 @@ hr {
 
 * {
     color: white;
-    background: #333f4d;
+    background: url(https://shots.codepen.io/username/pen/YBPpwG-800.jpg);
+    overflow: hidden;
     font-style: normal;
     
 }
@@ -31,7 +32,7 @@ hr {
     border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    margin: 2px;
+    margin: 6px;
 }
 
 .footer {
@@ -41,6 +42,7 @@ hr {
     width: 100%;
     color: white;
     text-align: center;
+    justify-content: center;
   }
   
   .ImageGallery {
@@ -52,7 +54,9 @@ hr {
 
 
 
-
+body {
+  margin: 20px;
+}
 
   * {box-sizing:border-box}
 
@@ -141,3 +145,7 @@ hr {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
+
