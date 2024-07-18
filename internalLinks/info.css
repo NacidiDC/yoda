@@ -146,6 +146,9 @@ body {
   to {opacity: 1}
 }
 
-
+.homeButton #galleryTitle {
+  display: flex;
+  align-items: center;
+}
 
 
